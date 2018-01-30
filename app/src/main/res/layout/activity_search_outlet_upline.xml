@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_outlet_upline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context="com.example.agastya.hellorealm.views.SearchOutletUplineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- nama outlet -->
+        <TextView
+            style="@style/custom_textview"
+            android:text="Nama Outlet" />
+
+        <EditText
+            android:id="@+id/activity_search_outlet_upline_edittext_nama_outlet"
+            style="@style/custom_edittext"
+            android:hint="Nama Outlet" />
+
+        <!-- kode outlet -->
+        <TextView
+            style="@style/custom_textview"
+            android:text="Kode Outlet" />
+
+        <EditText
+            android:id="@+id/activity_search_outlet_upline_edittext_kode_outlet"
+            style="@style/custom_edittext"
+            android:hint="Kode Outlet" />
+
+        <!-- alamat -->
+        <TextView
+            style="@style/custom_textview"
+            android:text="Alamat" />
+
+        <EditText
+            android:id="@+id/activity_search_outlet_upline_edittext_alamat"
+            style="@style/custom_edittext"
+            android:hint="Alamat" />
+
+        <!-- kecamatan -->
+        <TextView
+            style="@style/custom_textview"
+            android:text="Kecamatan" />
+
+        <EditText
+            android:id="@+id/activity_search_outlet_upline_edittext_kecamatan"
+            style="@style/custom_edittext"
+            android:hint="Kecamatan" />
+
+        <!-- kelurahan -->
+        <TextView
+            style="@style/custom_textview"
+            android:text="Kelurahan" />
+
+        <EditText
+            android:id="@+id/activity_search_outlet_upline_edittext_kelurahan"
+            style="@style/custom_edittext"
+            android:hint="Kelurahan" />
+
+        <!-- nickname -->
+        <TextView
+            style="@style/custom_textview"
+            android:text="Nickname" />
+
+        <EditText
+            android:id="@+id/activity_search_outlet_upline_edittext_nickname"
+            style="@style/custom_edittext"
+            android:hint="Nickname" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_search_outlet_upline_button_search"
+            style="@style/custom_button_green"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="SEARCH" />
+
+        <Button
+            android:id="@+id/activity_search_outlet_upline_button_add_data"
+            style="@style/custom_button_green"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="ADD"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/activity_search_outlet_upline_button_delete_data"
+            style="@style/custom_button_green"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="DELETE"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

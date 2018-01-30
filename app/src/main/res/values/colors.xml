@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- CUSTOM -->
+    <!-- field input -->
+    <color name="backgroundEditTextNormal">#FFFFCC</color>
+    <color name="backgroundEditTextFocused">#FFFFFF</color>
+    <color name="backgroundEditTextPressed">#EEEECC</color>
+    <color name="backgroundEditTextDisabled">#e0e0e0</color>
+
+    <!-- widgets button-->
+    <color name="buttonGreenNormal">#009688</color>
+    <color name="buttonGreenPressed">#00796b</color>
+    <color name="buttonGreenFocused">#004d40</color>
+    <color name="buttonBlueNormal">#2196f3</color>
+    <color name="buttonBluePressed">#1976d2</color>
+    <color name="buttonBlueFocused">#0d47a1</color>
+    <color name="buttonRedNormal">#f44336</color>
+    <color name="buttonRedPressed">#d32f2f</color>
+    <color name="buttonRedFocused">#b71c1c</color>
+    <color name="buttonOrangeNormal">#ff9800</color>
+    <color name="buttonOrangePressed">#f57c00</color>
+    <color name="buttonOrangeFocused">#e65100</color>
+    <color name="buttonGreyNormal">#607D8B</color>
+    <color name="buttonGreyPressed">#455A64</color>
+    <color name="buttonGreyFocused">#263238</color>
+    <color name="buttonWhiteNormal">#ffffff</color>
+    <color name="buttonWhitePressed">#e0e0e0</color>
+    <color name="buttonWhiteFocused">#9e9e9e</color>
+    <color name="buttonDisable">#e0e0e0</color>
+    <color name="buttonTextEnable">#ffffff</color>
+    <color name="buttonTextDisable">#bdbdbd</color>
+</resources>

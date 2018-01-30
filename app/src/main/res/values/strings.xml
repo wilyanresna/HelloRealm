@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hello Realm</string>
+    <string name="title_activity_hello_realm">HelloRealmActivity</string>
+</resources>
